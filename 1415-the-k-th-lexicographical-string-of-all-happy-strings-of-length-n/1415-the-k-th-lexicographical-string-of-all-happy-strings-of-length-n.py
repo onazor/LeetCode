@@ -13,5 +13,4 @@ class Solution:
                 build(current_string + char)
         
         build("")
-        print(happy_strings)
         return happy_strings[k-1] if len(happy_strings) >= k else ""
