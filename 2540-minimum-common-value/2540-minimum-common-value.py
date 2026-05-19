@@ -3,7 +3,7 @@ class Solution:
         dictionary = {}
         nums1 = list(set(nums1))
         nums2 = list(set(nums2))
-        
+
         for i in range(len(nums1)):
             if nums1[i] in dictionary:
                 dictionary[nums1[i]] += 1
@@ -18,7 +18,7 @@ class Solution:
         
         min_key = float('inf')
         flag = 0
-        print(dictionary)
+
         for key in dictionary:
             if dictionary[key] >= 2:
                 min_key = min(min_key, key)
