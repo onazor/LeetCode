@@ -27,7 +27,6 @@ class Solution:
             return max_score
         
         score = max_diff(0)
-        print(score)
 
         if score > 0:
             return "Alice"
