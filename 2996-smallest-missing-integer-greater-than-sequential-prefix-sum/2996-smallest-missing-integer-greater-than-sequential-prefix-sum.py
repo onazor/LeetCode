@@ -6,7 +6,7 @@ class Solution:
                 longest.append(nums[i])
             else: 
                 break
-        print(longest)
+
         total = sum(longest)
         while True:
             if total not in nums:
