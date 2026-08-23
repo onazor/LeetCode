@@ -6,7 +6,6 @@ class Solution:
             if char == '?':
                 count_of_q += 1
         
-        print(count_of_q)
         first_half = 0
         second_half = 0
         first_half_countq = 0
