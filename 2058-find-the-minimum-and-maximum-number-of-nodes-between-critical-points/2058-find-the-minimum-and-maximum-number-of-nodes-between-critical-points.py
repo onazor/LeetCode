@@ -22,8 +22,6 @@ class Solution:
             current = current.next
             counter += 1
 
-        print(distances)
-
         if not distances or len(distances) < 2:
             return [-1, -1]
 
