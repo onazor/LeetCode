@@ -28,9 +28,9 @@ class Solution:
         if len(distances) == 2:
             return [abs(distances[1]-distances[0])] * 2
 
-        sorted_list = sorted(distances)
         min_distances = float('inf')
         for idx in range(1, len(distances)):
             current = distances[idx] - distances[idx-1]
             min_distances = min(min_distances, current)
-        return [min_distances, max(sorted_list)-min(sorted_list)]
+
+        return [min_distances, max(distances)-min(distances)]
